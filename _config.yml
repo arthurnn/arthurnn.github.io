@@ -1,7 +1,6 @@
 # Website details
 name: "Code @ arthurnn"
 description: "arthurnn's Blog"
-email: ""
 author: "Arthur Nogueira Neves"
 lang: "en"
 locale: "en_CA"
@@ -15,6 +14,8 @@ paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
 baseurl: "http://code.arthurnn.com"
+sass:
+  sass_dir: assets/_scss
 
 # Includes
 addthisId: ""
