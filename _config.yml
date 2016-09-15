@@ -14,7 +14,7 @@ gems: [jekyll-paginate]
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
-baseurl: "https://arthurnn.github.io"
+baseurl: "http://code.arthurnn.com"
 
 # Includes
 addthisId: ""
