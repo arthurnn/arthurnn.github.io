@@ -8,7 +8,7 @@ locale: "en_CA"
 
 # Jekyll
 paginate: 10
-highlighter: ""
+highlighter: "rouge"
 markdown: kramdown
 gems: [jekyll-paginate]
 paginateLabel: page
