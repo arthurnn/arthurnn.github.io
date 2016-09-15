@@ -19,7 +19,7 @@ permalink: /:categories/:year/:month/:day/:title
 # Includes
 addthisId: ""
 disqusUsername: ""
-googleAnalyticsId: ""
+googleAnalyticsId: "UA-19968368-1"
 
 # Search engine verifications
 bing: ""
