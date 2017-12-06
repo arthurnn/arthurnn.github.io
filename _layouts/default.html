@@ -76,7 +76,7 @@ layout: htmlCompressor
 		<section>
 
 			<!-- Homepage -->
-			<a href="{{ site.baseurl }}"><i class="icon-home"></i></a>
+			<a href="{{ site.url }}{{ site.baseurl }}"><i class="icon-home"></i></a>
 
 			<!-- Site name & description -->
 			<div>
@@ -128,7 +128,7 @@ layout: htmlCompressor
 				<div class="dtc h6">
 
 					<!-- Copyright -->
-					<a href="{{ site.baseurl }}" class="h6">{{ site.name }}</a> &copy; {{ site.time | date: "%Y" }} &bull; {% if site.lang == "tr" %}Tüm hakları saklıdır{% else %}All rights reserved{% endif %}.
+					<a href="{{ site.url }}{{ site.baseurl }}" class="h6">{{ site.name }}</a> &copy; {{ site.time | date: "%Y" }} &bull; {% if site.lang == "tr" %}Tüm hakları saklıdır{% else %}All rights reserved{% endif %}.
 					<br>
 					{% if site.lang == "tr" %}
 						<a href="https://github.com/jekyll/jekyll" class="h6" target="_blank">Jekyll</a> ile <a href="https://github.com/ozgrozer/dasper" class="h6" target="_blank">Dasper</a> teması kullanılarak oluşturulmuştur.
