@@ -25,6 +25,6 @@ Those are some of the high-level issues Vitess solves. Besides those, it has a g
 
 YouTube uses Vitess in production today, as well as other companies are starting to use it too. You can see some talks about it in conferences like Percona Live.
 
-For more information about Vitess, you should check it out their website [http://vitess.io/]().
+For more information about Vitess, you should check it out [their website](http://vitess.io/).
 
 I should be posting more about Vitess in here too.
