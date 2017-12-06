@@ -13,7 +13,6 @@ plugins: [jekyll-paginate]
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
-baseurl: "http://code.arthurnn.com"
 sass:
   sass_dir: assets/_scss
 
