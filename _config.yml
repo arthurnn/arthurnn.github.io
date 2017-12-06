@@ -9,7 +9,7 @@ locale: "en_CA"
 paginate: 10
 highlighter: "rouge"
 markdown: kramdown
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
