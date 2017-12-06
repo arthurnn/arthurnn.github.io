@@ -8,10 +8,13 @@ categories:
 For the past 3 months, I've been experimenting with Vitess and looking at its capabilities.
 
 Historically the places I worked for in the past got to that tipping point, where you have one MySQL database that is getting too big to handle its amount of data, serving queries efficiently as it was once in the past.
+
 I guess that's a common problem to have once you get to a certain scale, and most of the companies want to have those.
+
 Twitter, Facebook, Youtube, etc. They all had these problems a while ago, and because those are specific problems, not every company gets to work on them. Most of the solutions are not abstract enough for others to use.
 
 Vitess is one of those solutions. However, it was abstracted in a way others can use.
+
 It was created by YouTube, trying to solve their scalability issues with MySQL. Things like:
 - The poor performance of bad queries.
 - Too many application servers connecting to the same db host.
@@ -22,6 +25,6 @@ Those are some of the high-level issues Vitess solves. Besides those, it has a g
 
 YouTube uses Vitess in production today, as well as other companies are starting to use it too. You can see some talks about it in conferences like Percona Live.
 
-For more information about Vitess, you should check it out their website http://vitess.io/.
+For more information about Vitess, you should check it out their website [http://vitess.io/]().
 
 I should be posting more about Vitess in here too.
